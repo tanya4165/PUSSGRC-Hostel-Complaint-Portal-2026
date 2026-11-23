@@ -3,7 +3,7 @@ const bcrypt = require("bcrypt");
 const saltRounds = 10;
 
 const registerUser = async (data) => {
-  let existingUser = await User.findOne({ scholar_no: data.scholarNumber });
+ let existingUser = await User.findOne({ Roll_no: data.Roll_no });
   if (existingUser) {
     throw new Error("User already exists");
   }
@@ -22,7 +22,7 @@ const registerUser = async (data) => {
     phone: data.phoneNumber,
     hostel_no: data.hostelNumber,
     room_no: data.roomNumber,
-    scholar_no: data.scholarNumber,
+   Roll_no: data.Roll_no,
     password: hashedPassword,
   });
   await newUser.save();

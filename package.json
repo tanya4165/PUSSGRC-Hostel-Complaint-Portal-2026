@@ -1,14 +1,14 @@
 {
-  "name": "MANIT-hostel-complaint-portal",
+  "name": "PUSSGRC-hostel-complaint-portal",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/ravisingh123123/MANIT-Hostel-Complaint-Portal#readme",
+  "homepage": "https://github.com/ravisingh123123/PUSSGRC-Hostel-Complaint-Portal#readme",
   "bugs": {
-    "url": "https://github.com/ravisingh123123/MANIT-Hostel-Complaint-Portal/issues"
+    "url": "https://github.com/ravisingh123123/PUSSGRC-Hostel-Complaint-Portal/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ravisingh123123/MANIT-Hostel-Complaint-Portal.git"
+    "url": "git+https://github.com/ravisingh123123/PUSSGRC-Hostel-Complaint-Portal.git"
   },
   "license": "ISC",
   "author": "",
